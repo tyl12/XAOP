@@ -51,7 +51,7 @@ buildscript {
         ···
         classpath 'com.github.xuexiangjys.XAOP:xaop-plugin:1.0.5'
         //如果你升级到androidx，请使用下面依赖
-        classpath 'com.github.xuexiangjys.XAOP:xaop-plugin:x1.0.5'
+        classpath 'com.github.xuexiangjys.XAOP:xaop-plugin:1.0.5x'
     }
 }
 ```
@@ -66,7 +66,7 @@ dependencies {
      //添加依赖
     implementation 'com.github.xuexiangjys.XAOP:xaop-runtime:1.0.5'
      //如果你升级到androidx，请使用下面依赖
-    implementation 'com.github.xuexiangjys.XAOP:xaop-runtime:x1.0.5'
+    implementation 'com.github.xuexiangjys.XAOP:xaop-runtime:1.0.5x'
 }
 ```
 4.在Application中进行初始化
